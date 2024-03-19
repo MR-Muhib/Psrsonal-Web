@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.top-nev{
+    background-color: green;
+}
+
+.top-nev img{
+    width: 150px;
+    margin: 20px;
+    display: flex;
+    float: left;
+    position: fixed;
+}
+.nev-bar{
+    display: flex;
+    float: right;
+    margin: 10px;
+}
+.nev-bar a{
+    margin: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px;
+    font-weight: bold;
+}
+.nev-bar a:hover{
+    background-color: gray;
+    color: white;
+}
+
+.nev-container button{ 
+    width: 80px;
+    float: right;
+    margin: 25px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+
+ 
+@media screen and (max-width: 600px) {
+    .nev-bar a{
+        display: none;
+    }
+    
+}
+@media screen and (max-width: 900px) {
+    .nev-bar a{
+        color: rgb(0, 0, 0);
+    }
+    .nev-bar{
+        /* background-color: rgb(154, 154, 197); */
+        
+    }
+    
+}
+.menu-down{
+    margin: 20px;
+}
+.menu-down a{
+    visibility: hidden;
+    display: block;
+    margin-top: 10px;
+    background-color: gray;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.menu-down a:hover{
+    background-color: bisque;
+}
+@media screen and (max-width: 600px) {
+    .menu-down a{
+        visibility: visible;
+        display: block;
+    }
+    
+}
+
+
+/* ..................Section 1 start..................... */
+
+#section-1{
+    margin: 30px;
+}
+    .left-div{
+    max-width: 50%;
+    float: left;
+    line-height: 2;
+    margin-bottom: 40px;
+} 
+
+
+/* .nev-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+} */
+
+
+
+strong{
+    color: green;
+}
+.lorem-1{
+    color: red;
+}
+@media screen and (max-width: 600px) {
+    .left-div{
+        max-width: 100%;
+        text-align: center;
+        margin: 40px;
+    }
+}
+
+.right-div img{
+    width: 40%;
+    float: right;
+    margin-bottom: 40px;
+}
+@media screen and (max-width: 600px) {
+    .right-div img{
+        max-width: 100%;
+    }
+}
+.BTN{
+    width: 120px;
+    padding: 5px;
+    background-color: green;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin: 20px;
+}
+.BTN:hover{
+    background-color: blueviolet;
+}
+@media screen and (max-width: 600px) {
+    .BTN{
+        width: 100%;
+    }
+}
+/* ..................Section 1 end..................... */
+
+.div-clear{
+    clear: both;
+}

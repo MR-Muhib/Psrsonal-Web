@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.testimonial{
+    width: 100%;
+    /* display: flex;
+    margin: 0 auto;
+    justify-content: center; */
+}
+.document{
+    display: flex;
+    justify-content: center;
+}
+.testimonial h1{
+    text-align: center;
+    margin: 20px;
+}
+img{
+    width: 120px;
+    display: flex;
+    float: left;
+    margin-right: 20px;
+
+}
+.document p{
+    width: 40%;
+    text-align: justify;
+    margin-left: 20px;
+    margin-top: 10px;
+}

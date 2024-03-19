@@ -1,0 +1,53 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+/* ..................Section 2 start..................... */
+
+
+#section-2 {
+    margin:40px;
+}
+
+.topic-img{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 90px;
+    
+}
+
+@media screen and (max-width: 600px) {
+    #section-2{
+        div{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            margin: 0 auto;   
+        }
+    }
+    #section-2 {
+        div img{
+            width: 100%;
+        }
+    }
+}
+.topic-img{
+    display: flex;
+    justify-content: center;
+    div img{
+        width: 120px;
+        margin: 20px;
+        
+    }
+    div p{
+        margin: 20px;
+        text-align: center;
+    }
+    div h3{
+        text-align: center;
+    }
+}
